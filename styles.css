@@ -1,0 +1,128 @@
+@font-face {
+  font-family: fredoka;
+  src: url(FredokaOne-Regular.ttf);
+}
+@font-face {
+  font-family: acme;
+  src: url(Acme-Regular.ttf);
+}
+.menu {
+  /* add correct code to place the menu correctly.*/
+
+  background-color: black;
+  font-size: 40px;
+  font-family: fredoka;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+body {
+  background-color: #008080;
+}
+.bodyimg{
+  font-family: acme;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.459);
+  border-radius: 20px;
+  padding-bottom: 10px;
+  margin: 30px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.bodyimg h3{
+  padding-left:10px;
+  padding-right:10px;
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  gap: 10px 20px;
+  justify-content:space-evenly;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: rgba(250, 235, 215, 0.692);
+  margin: 30px;
+  padding: 20px;
+  width: 310px;
+  font-family: fredoka;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.origami:hover{
+  transform: scale(1.1);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.intro{
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: rgb(249, 250, 215);
+    margin: 30px;
+    padding: 20px;
+    width: auto;
+    max-width: 650px;
+    font-family: fredoka;
+    font-size: 18px;
+}
+.short_desc{
+  display: flex;
+  flex: wrap;
+  justify-content:center;
+  flex-direction: column;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.116);
+  margin: 30px;
+  padding: 10px;
+  width: auto;
+  font-family: fredoka;
+  font-size: 18px;
+  text-align: center;
+}
+.intro_group{
+    display: flex;
+    flex: wrap;
+    justify-content:center;
+    background-color: rgba(255, 255, 255, 0.096);
+    padding: 10px;
+    border-radius: 50px;
+    margin: 30px;
+}
+.site{
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.116);
+    margin-top: 40px;
+    padding: 20px;
+    width: 225px;
+    height: 50px;
+    font-family: fredoka;
+    font-size: 40px;
+}
+a:link {
+   color: #ffffff; 
+  text-decoration: none;
+  font-size: 20px;
+}
+a:visited {
+  color: #ffffff; 
+  text-decoration: none
+}
+a:hover {
+  color: #3366CC; 
+  text-decoration: underline
+}
